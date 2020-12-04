@@ -1,13 +1,18 @@
 <ObjectDefinition>
   <variables frozen="0"/>
   <example/>
+  <process name="Process/workflows/abcd2/Process_test">
+    <displayName>test</displayName>
+    <type>CREATE</type>
+    <visibility>5</visibility>
+  </process>
   <information>
     <icon/>
     <description/>
     <displayField>service_id</displayField>
     <serviceTaskType>php</serviceTaskType>
     <order>10000</order>
-    <visibility>0</visibility>
+    <visibility>5</visibility>
     <name>abcd2</name>
     <group/>
   </information>
