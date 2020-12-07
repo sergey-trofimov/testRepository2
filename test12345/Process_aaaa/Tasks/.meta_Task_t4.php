@@ -3,11 +3,11 @@
     <map>
         <entry>
             <key>DISPLAYNAME</key>
-            <value>test12345.xml</value>
+            <value>Task_t4.php</value>
         </entry>
         <entry>
             <key>DATE_MODIFICATION</key>
-            <value>1607313818629</value>
+            <value>1607313815230</value>
         </entry>
         <entry>
             <key>REPOSITORY</key>
@@ -15,11 +15,7 @@
         </entry>
         <entry>
             <key>DATE_CREATION</key>
-            <value>1607313818626</value>
-        </entry>
-        <entry>
-            <key>MODEL</key>
-            <value>0</value>
+            <value>1607313815225</value>
         </entry>
         <entry>
             <key>TAG</key>
@@ -29,12 +25,8 @@
             <value>text</value>
         </entry>
         <entry>
-            <key>MANUFACTURER</key>
-            <value>0</value>
-        </entry>
-        <entry>
             <key>TYPE</key>
-            <value>FILE</value>
+            <value>UPLOAD</value>
         </entry>
         <entry>
             <key>COMMENT</key>
