@@ -7,7 +7,7 @@
     <displayField>service_id</displayField>
     <serviceTaskType>php</serviceTaskType>
     <order>10000</order>
-    <visibility>0</visibility>
+    <visibility>5</visibility>
     <name>???</name>
     <group/>
   </information>
