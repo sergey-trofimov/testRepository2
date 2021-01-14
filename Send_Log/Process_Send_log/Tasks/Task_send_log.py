@@ -25,7 +25,7 @@ rawlog = context['message']
 device_id = context['device_id']
 customer_ref = context['subtenant_id']
 
-payload = {"rawlog": ""+rawlog+"", "device_id": ""+device_id+"", "date": ""+time1+"", "customer_ref": ""+customer_ref+"",, "severity": ""+severity+"", "type": "NOTIFICATION", "subtype": "WF"}
+payload = {"rawlog": ""+rawlog+"", "device_id": ""+device_id+"", "date": ""+time1+"", "customer_ref": ""+customer_ref+"", "severity": ""+severity+"", "type": "NOTIFICATION", "subtype": "WF"}
 
 headers = {'content-type': 'application/json'}
 
