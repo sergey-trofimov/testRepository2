@@ -46,7 +46,6 @@ check_mandatory_param('var_name');
  *
  * ENTER YOUR CODE HERE
  */
-$context['var_name2'] = $context['var_name2'] + 1;
 
 /**
  * Format of the Task response :
@@ -66,15 +65,9 @@ $context['var_name2'] = $context['var_name2'] + 1;
  * The response "$ret" should be echoed from the Task "echo $ret" which is read by Orchestration Engine
  * In case of FAILURE/WARNING, the Task can be Terminated by calling "exit" as per Logic
  */
-if ($context['var_name2'] % 2 === 0) {
-	$ret = prepare_json_response(FAILED, 'Task Failed', $context, true);
-	echo "$ret\n";
-	exit;
-}
 
 /**
  * End of the task (choose one)
  */
 task_success('Task OK');
-task_error('Task FAILED');
 ?>
